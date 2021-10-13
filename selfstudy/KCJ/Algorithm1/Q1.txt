@@ -1,0 +1,32 @@
+정수 배열 nums와 정수 target이 주어지면
+nums의 원소 둘을 그 합이 target이 되도록 반환하세요.
+
+input 값이 하나의 정답(output)만 가져야 한다고 생각하신다면,
+같은 원소를 두 번 사용하지 않아도 좋습니다.(하나만 쓰라는 뜻)
+
+이 때 어떤 순서로 값을 반환해도 좋습니다.
+
+예시 1:
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Output: Because nums[0] + nums[1] == 9, we return [0, 1].
+
+예시 2:
+Input: nums = [3,2,4], target = 6
+Output: [1,2]
+
+예시 3:
+Input: nums = [3,3], target = 6
+Output: [0,1]
+
+조건
+2 <= nums.length <= 10^4
+-10^9 <= nums[i] <= 10^9
+-10^9 <= target <= 10^9
+반드시 하나의 답만 리턴.
+
+
+과정
+1. 4개의 숫자를 꺼내는 로직 - 모든 숫자들을 한번씩 더해본다
+2. 두 숫자를 더하는 것
+3. 조건에 맞지 않는 변수 제거
