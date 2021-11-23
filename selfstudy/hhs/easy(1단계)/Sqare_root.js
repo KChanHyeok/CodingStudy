@@ -1,5 +1,4 @@
-var mySqrt = function(x) {
-    //너무 쉬워서 주석 달필요 없을 듯...
+var myfunction = function(x) {
     let num = 0;
     let res = 0;
     while(res<=x){

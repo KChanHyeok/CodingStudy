@@ -1,15 +1,8 @@
-/* 문제풀 때 팁 :
-   모든 문제는 if문이나 while(또는 for)문으로 풀리니까
-   둘 줄 뭘써야 되는지 선택해가면서 풀면 되는데
-   if문은 읽었을 때 직관적으로 무슨 뜻인지 이해가 잘되는 데
-   while문은 내용을 이해하기가 힘듦
-   그니까 어떻게 풀어야할지 막막한 부분은
-   반복문을 어떻게 사용할지 고민해봅시다.
-*/
+
 
 var nums = [];
 var target;
-var twoSum = function(nums, target) {
+var myfunction = function(nums, target) {
     var res = []; //리턴값
     var sum =0; // nums의 두 원소의 합을 저장
     var isnum =true; 

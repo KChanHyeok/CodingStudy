@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="medium(2단계)/Reverse Integer.JS"></script>
+<script>
+    window.onload = ()=>{
+        let put = document.getElementById("put");
+        put.addEventListener('click',printRes);
+    }
+
+    function printRes(){
+            const input = document.getElementById("input").value;
+            document.getElementById("scan").innerText
+            = "입력값 : " + input;
+            document.getElementById("result").innerText
+            = "결과값 : " + myfunction(input);
+        }
+
+        
+</script>
+<body>
+    <form>
+        <input id="input"/>
+        <input type="button" value="입력" id="put"></button>
+        <div id="scan">입력값 :</div>
+        <div id="result">결과값 :</div>
+    </form>
+    
+</body>
+</html>

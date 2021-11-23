@@ -1,5 +1,5 @@
 var x;
-var reverse = function(x) {
+var myfunction = function(x) {
     
     let count = 0; //x와 num의 자릿수
     let count2 = 0;
@@ -8,10 +8,6 @@ var reverse = function(x) {
     let num; //x의 부호를 지워준 값
     
     function sqare(a,b)
-    //거듭제곱 해주는 함수
-    /*js에는 이미 제곱해주는 함수 Math.pow(밑,지수)를 지원해주는데
-    어떤 언어로 코딩하실지 몰라서 만들어봣어요.
-    그리고 거듭제곱 연산자는 **라네요 (예시 2 ** 3 == 8)*/
     {
         let i = 0;
         let res = 1;
